@@ -72,8 +72,41 @@ img {
   clear: both;
 }
 
-/* responsive */
+/* responsive smartphone */
 @media screen and (max-width:420px){
+  #lezioni .row>.left,
+  #lezioni .row>.right,
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right,
+  .row{
+    width: 100%;
+  }
+
+  .row{
+    margin-top:0;
+  }
+
+  .container{
+    padding:20px 15px 15px 15px;
+  }
+
+  #lezioni, #why{
+    background-color: #f2f2cd;
+  }
+  
+  .container.grey {
+    background-color: #fff;
+  }
+
+  img {
+    height: 120px;
+    margin-bottom:10px;
+  }
+}
+
+/* responsive tablet */
+@media screen and (max-width:768px){
   #lezioni .row>.left,
   #lezioni .row>.right,
   #steps .row>.left,
